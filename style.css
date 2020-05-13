@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Kingthings";
+    src: url("./fonts/KingthingsPetrocklight.woff2") format("woff2"),
+           url("./fonts/KingthingsPetrocklight.woff") format("woff");
+   }
+   
 body {
     margin: 0;
     padding: 0;
@@ -133,7 +139,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +156,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, .8);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -413,6 +419,13 @@ nav .caret {
     margin: 0 5px;
 }
 
+.navbar-brand {
+    font-family: Kingthings;
+    font-size: 1.9em;
+    font-weight: lighter;
+    color: #333!important;
+}
+
 .dropdown-menu .dropdown-menu {
     top: -8px;
     left: 100%;
@@ -480,7 +493,7 @@ button {
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 2.7em!important;
 }
 
 .sm-shadow {
@@ -677,11 +690,11 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.3em;
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 80%;
     margin: auto auto auto auto;
 }
 
@@ -735,8 +748,14 @@ h4 {
     margin-top: 24px;
 }
 
+.black {
+    color: #000000!important;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
 .white {
-    color: #FFFFFF!important;
+    color: #FFF!important;
 }
 
 .portfolio-thumb {
@@ -746,6 +765,13 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+}
+
+.portfolio-row p {
+    font-size: 1.6rem;
+}
+.portfolio-row h3 {
+    font-size: 1.3em;
 }
 
 .avatar {
@@ -775,12 +801,13 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
+    font-weight: bolder;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -809,20 +836,30 @@ h4 {
     border-color: #364577!important;
 }
 
+/* optmize image bg-dots-bg */
+
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
 }
+
+/* optmize image bg-lines-h2-bg */
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
 }
 
+/* optmize image la chouette agence banner */
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
+/* Optmize image de presentation */
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
+}
+
+.blockquote-footer {
+    font-size: 1.2em;
 }
 
 @media (max-width: 1024px) {
