@@ -99,6 +99,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    opacity:0.3;
 }
 
 .b-parallax {
@@ -201,7 +202,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel button:hover,
@@ -667,7 +668,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -695,6 +696,7 @@ a {
 p {
     font-size: 1.3em;
 }
+
 
 .tight-width-whitespace {
     max-width: 80%;

@@ -1,0 +1,1 @@
+new GMaps({div:"#map",lat:45.7694377,lng:4.8301204});
