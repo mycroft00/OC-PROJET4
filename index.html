@@ -30,7 +30,7 @@
 
 	<!-- CDN BOOSTRAP FONT-AWESOME -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+	<link defer href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
 		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<!-- Style locales -->
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -233,9 +233,9 @@
 					<div class="col-sm-6">
 						<a href="#" data-lightbox="img/books.jpg" data-gallery-id="gallery-1"
 							data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
-							<img src="img/books.jpg"
+							<img data-src="img/books.jpg"
 								alt="paris web design logo agence web meilleure agence et refonte site web journal"
-								class="img-responsive portfolio-thumb"></a>
+								class="lazyload img-responsive portfolio-thumb"></a>
 						<h3 class="mg-md text-center"> Refonte d'un site web pour un journal local </h3>
 						<p class="text-center">
 							Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
@@ -244,7 +244,7 @@
 					<div class="col-sm-6">
 						<a href="#" data-lightbox="img/photo.jpg" data-gallery-id="gallery-1"
 							data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">
-							<img src="img/photo.jpg" class="img-responsive portfolio-thumb"
+							<img data-src="img/photo.jpg" class="lazyload img-responsive portfolio-thumb"
 								alt="Création d'un site web pour photographes">
 						</a>
 						<h3 class="mg-md text-center">
@@ -260,7 +260,7 @@
 					<div class="col-sm-6">
 						<a href="#" data-lightbox="img/stuffs.jpg" data-gallery-id="gallery-1"
 							data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb">
-							<img src="img/stuffs.jpg" class="img-responsive portfolio-thumb"
+							<img data-src="img/stuffs.jpg" class="lazyload img-responsive portfolio-thumb"
 								alt="Création d'un site web pour voyageur">
 						</a>
 						<h3 class="mg-md text-center"> Création d'un site internet pour un voyageur </h3>
@@ -274,7 +274,7 @@
 						<a href="#" data-lightbox="img/desk-mac.jpg" data-gallery-id="gallery-1"
 							data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb">
 
-							<img src="img/desk-mac.jpg" class="img-responsive portfolio-thumb"
+							<img data-src="img/desk-mac.jpg" class="lazyload img-responsive portfolio-thumb"
 								alt="Conception d'un site pour une agence de mariag"></a>
 						<h3 class="mg-md text-center"> Conception d'un site pour une agence de mariage </h3>
 
@@ -372,6 +372,7 @@
 	<script async
 		src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
 
+	<script src="./js/lazysizes.min.js" async></script>
 
 
 </body>
